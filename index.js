@@ -1,7 +1,7 @@
 let myItem1='Milk'
 let myItem1price=0.21
 
-let milk= myItem1 +" "+ "costs"+" "+ myItem1price +"$"
+let milk="Product:"+ myItem1 +" "+  "Price:"  + myItem1price +"$"
 
 console.log(milk)
 
@@ -10,16 +10,59 @@ console.log(milk)
 let myItem2='Cocoa'
 let myItem2price=2
 
-let cocoa= myItem2 +" "+ "costs"+" "+ myItem2price +"$"
+let cocoa="Product:"+ myItem2 +" "+  "Price:"  + myItem2price +"$"
 
-console.log(cocoa)
+// console.log(cocoa)
+
+
 
 
 
 let myItem3='Salad'
 let myItem3price=2
 
-let salad= myItem3 +" "+ "costs"+" "+ myItem3price +"$"
+let salad="Product:"+ myItem3 +" "+  "Price:"  + myItem3price +"$"
 
-console.log()
+// console.log(salad)
+
+
+
+
+let myItem4='Carrots'
+let myItem4price=2
+
+let carrots="Product:"+ myItem4 +" "+  "Price:"  + myItem4price +"$"
+
+// console.log(carrots)
+
+
+
+
+
+let myItem5='Tomatoes'
+let myItem5price=2.5
+
+let tomatoes= "Product:"+ myItem5 +" "+  "Price:"  + myItem5price +"$"
+
+// console.log(tomatoes)
+
+
+
+
+
+let myItem6='Ready meals'
+let myItem6price=5
+
+let readyMeals= "Product:"+ myItem6 +" "+  "Price:"  + myItem6price +"$"
+
+// console.log(readyMeals)
+
+
+let allProducts=[milk,cocoa,salad,carrots,tomatoes,readyMeals]
+
+console.log(allProducts)
+
+
+
+
 
