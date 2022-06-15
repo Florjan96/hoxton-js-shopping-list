@@ -87,6 +87,17 @@ allProducts.push(addedNew)
 
 
 
+for(let product of allProducts  ){
+
+    console.log(`Offer of the day, ${product}`)
+
+
+
+
+}
+
+
+
 
 
 
