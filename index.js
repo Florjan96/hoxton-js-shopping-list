@@ -1,9 +1,10 @@
+// @ts-nocheck
 let myItem1='Milk'
 let myItem1price=0.21
 
 let milk="Product:"+ myItem1 +" "+  "Price:"  + myItem1price +"$"
 
-console.log(milk)
+// console.log(milk)
 
 
 
@@ -58,9 +59,33 @@ let readyMeals= "Product:"+ myItem6 +" "+  "Price:"  + myItem6price +"$"
 // console.log(readyMeals)
 
 
+
+
+
+
+// @ts-ignore
 let allProducts=[milk,cocoa,salad,carrots,tomatoes,readyMeals]
 
-console.log(allProducts)
+
+
+
+// let addedItem='Oil'
+
+// allProducts.push(addedItem)
+
+
+// console.log(allProducts)
+
+
+let addedItem= prompt('What is the new product?')
+
+let addedItemPrice= prompt('What is the price?')
+
+let addedNew="Product:"+ addedItem +" "+  "Price:"  + addedItemPrice +"$"
+
+allProducts.push(addedNew)
+
+
 
 
 
